@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "sdkVersion": "26.0.0",
+    "version": "1.4.2",
+    "privacy": "public",
+    "platforms": [
+      "ios"
+    ],
+    "ios": {
+      "buildNumber": "39",
+      "supportsTablet": false,
+      "isRemoteJSEnabled": false,
+      "bundleIdentifier": "io.bluewallet.bluewallet",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Discover local stores nearby that accept Bitcoin",
+        "NSCameraUsageDescription": "Allow BlueWallet to scan QR codes",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "publishBundlePath": "ios/raichu-wallet/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/raichu-wallet/Supporting/shell-app-manifest.json"
+    },
+    "name": "Raichu Wallet",
+    "description": "Bitcoin and Ethereum Wallet",
+    "slug": "raichuwallet",
+    "orientation": "portrait",
+    "primaryColor": "#ffbf00",
+    "icon": "img/icon.png",
+    "notification": {
+      "icon": "https://s3.amazonaws.com/exp-us-standard/placeholder-push-icon.png",
+      "color": "#000000"
+    },
+    "splash": {
+      "backgroundColor": "#ffbf00"
+    },
+    "android": {
+      "package": "com.raichu.wallet"
+    },
+    "isDetached": true,
+    "detach": {
+      "scheme": "expeeaa844702ca48f2832f855c56b2fabf",
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.4.4-sdk26.0.0-3bd935c7-cdd3-4002-8e44-4df857a675f2.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.4.0-sdk26.0.0-e63d9209-070c-4118-b06b-c60e82da0b66.tar.gz"
+    }
+  }
+}
