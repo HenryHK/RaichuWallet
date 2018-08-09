@@ -81,6 +81,23 @@ export default class WalletsAdd extends Component {
               }, 1);
             }}
           />
+
+          <BlueButton
+            large
+            icon={{ name: 'ethereum', type: 'font-awesome' }}
+            title={loc.wallets.add.create}
+            onPress={() => {
+              this.props.navigation.goBack();
+              setTimeout(async () => {
+                let w = new SegwitP2SHWallet();
+                w.setLabel(loc.wallets.add.label_new_segwit);
+                w.generate();
+                BlueApp.wallets.push(w);
+                await BlueApp.saveToDisk();
+                EV(EV.enum.WALLETS_COUNT_CHANGED);
+              }, 1);
+            }}
+          />
         </BlueCard>
       </SafeBlueArea>
     );

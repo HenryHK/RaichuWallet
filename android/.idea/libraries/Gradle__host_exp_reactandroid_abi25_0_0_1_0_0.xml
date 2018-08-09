@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: host.exp:reactandroid-abi25_0_0-1.0.0">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/f680bd8d99b1d01f38d81d63f8ad0c1775d77133/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/f680bd8d99b1d01f38d81d63f8ad0c1775d77133/output/jars/classes.jar!/" />
-      <root url="jar://$USER_HOME$/.android/build-cache/f680bd8d99b1d01f38d81d63f8ad0c1775d77133/output/jars/libs/infer-annotations-4.0.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/8a6b94d2d063a9efae9ad39de688c55cb0975872/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/8a6b94d2d063a9efae9ad39de688c55cb0975872/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/8a6b94d2d063a9efae9ad39de688c55cb0975872/output/jars/libs/infer-annotations-4.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
